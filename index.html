@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		
+		@media only screen and (max-width: 768px) {
+		  /* For mobile phones: */
+		  [class*="col-"] {
+		    width: 100%;
+		  }
+		}
+		.flex-container {
+ 		 display: flex;
+ 		 justify-content: center;
+		}
+		body{
+			font-family: monospace;
+		}
+	
+		</style>
+
+
+	</head>
+<body>
+	<header id="header">
+		<center>
+		<img id="header-img" src="https://www.nicepng.com/png/detail/310-3101454_safe-food-logo-banner-clip-art.png">
+		<nav id="nav-bar">
+			<a class="nav-link" href="#about-us">About Us</a>
+			<a class="nav-link" href="#request-coupon">Request Coupon</a>
+			<a class="nav-link" href="#order-on-grab">Buy on Online Store</a>
+		</nav> 
+		</center>
+	</header>
+	<section id="about-us">
+		<center>
+		<h1>Selling Healthy food</h1>
+		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/huixQLJxMeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</center>
+	</section>
+	<section id="request-coupon">
+		<center>
+			<h2>Request a Coupon</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+		 	<label for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="juandelacruz@gmail.com" required></input><br><br>
+
+			<input type="submit" id="submit"></input>
+		</form>
+		</center>
+	</section>
+	<section id="order-on-grab">
+		<center>
+		<div class="flex-container">
+		  <div><a href="/grab-affiliate-link">Buy on Grab</a></div>
+		  <div><a href="/foodpanda-affiliate-link">Buy on FoodPanda<a></div>
+		  <div><a href="/angkas-affiliate-link">Buy on Angkas<a></div>
+		</div>
+		</center>
+	</section>
+
+
+</body>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
